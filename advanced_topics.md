@@ -1,56 +1,58 @@
 # American Studies — Advanced Topics
 
-This page branches out from the core curriculum into distinct specialization tracks, focusing on the critical frameworks, methodologies, and subfields that define advanced work in American Studies. 
+This curriculum branches out from the undergraduate core into specialized subfields, critical frameworks, and methodologies that define contemporary scholarship in American Studies. Self-directed learners are encouraged to choose one or two specialization tracks aligned with their intellectual or research interests rather than attempting to complete all tracks.
 
-- **Race, Indigeneity, and Settler Colonialism** — Examines the foundational structures of racial formation, indigenous erasure, and borderland identities that challenge traditional narratives of the American nation-state.
-- **Gender, Sexuality, and Feminist Frameworks** — Explores how American social, political, and economic systems are constructed through gender and sexuality, utilizing intersectional and queer theoretical lenses.
-- **Empire, Transnationalism, and Hemispheric Studies** — Moves beyond US borders to analyze American imperialism, global cultural hegemony, and the interconnected histories of the broader Americas.
-- **Visual Culture, Materiality, and the Digital Age** — Investigates how American identity is constructed, archived, and contested through visual media, consumer objects, and emerging digital humanities methodologies.
+- **Race, Indigeneity, and Settler Colonialism** — Investigates racial formation, Indigenous sovereignty, borderland identities, and African American freedom struggles that contest traditional narratives of the American nation-state.
+- **Gender, Sexuality, and Feminist Frameworks** — Explores how gender, sexuality, and reproduction structure American political economy, legal institutions, and cultural hierarchies.
+- **Empire, Transnationalism, and Hemispheric Studies** — Decenters the continental United States to analyze American imperialism, extraterritorial governance, immigration restriction, and global cultural circuits.
+- **Visual Culture, Materiality, and Digital Humanities** — Teaches rigorous methodologies for analyzing visual media, material objects, and computational cultural datasets.
 
 ## Race, Indigeneity, and Settler Colonialism
 
-This track deconstructs the myth of a unified national origin by centering the experiences of Indigenous peoples, enslaved populations, and borderland communities, utilizing critical race theory and settler colonial studies.
+This track deconstructs the narrative of American nation-building by centering Indigenous sovereignty, African American liberation, and the racialization of border communities through critical ethnic studies frameworks.
 
-Settler Colonial Theory: "Settler Colonialism and the Elimination of the Native" by Patrick Wolfe (Journal of Genocide Research) - A foundational, highly influential paper that provides the essential theoretical framework for understanding the US not as a post-colonial nation, but as an ongoing settler colonial project; search for the PDF on academic repository sites.
+African American Freedom Struggles: [African American History: From Emancipation to the Present — AFAM 162 (Yale Open Courses / Jonathan Holloway)](https://oyc.yale.edu/african-american-studies/afam-162) - A comprehensive 25-lecture video course examining post-emancipation Black freedom struggles, Jim Crow racialization, and grassroots community resistance.
 
-Indigenous History: [An Indigenous Peoples' History of the United States (Roxanne Dunbar-Ortiz)](https://books.google.com/books?isbn=9780807000403) - A vital corrective to standard US history surveys that reframes the national narrative entirely through the lens of Indigenous resistance and survival against genocidal policies.
+Settler Colonial Theory: "Settler Colonialism and the Elimination of the Native" by Patrick Wolfe (Journal of Genocide Research) - The foundational theoretical essay arguing that settler colonialism is an ongoing structural project driven by the logic of elimination rather than a finished historical event; search for the PDF online.
 
-Borderlands Identity: [Borderlands/La Frontera: The New Mestiza (Gloria Anzaldúa)](https://books.google.com/books?isbn=9780873589611) - The canonical text of Chicanx and borderlands studies, blending poetry, autobiography, and cultural theory to articulate the psychological and physical realities of living between cultures.
+Indigenous Historiography: [An Indigenous Peoples' History of the United States (Roxanne Dunbar-Ortiz / Beacon Press)](https://books.google.com/books?isbn=9780807000403) - An essential historical survey that reframes centuries of U.S. history around Indigenous survival, land expropriation, and systemic anti-colonial resistance.
 
-Asian American Formation: [The Making of Asian America: A History (Erika Lee)](https://books.google.com/books?isbn=9781476731926) - A comprehensive historical synthesis that traces how diverse Asian populations were racialized, excluded, and eventually woven into the complex fabric of American demographic and political life.
+Borderlands and Mestiza Cultural Theory: [Borderlands/La Frontera: The New Mestiza (Gloria Anzaldúa / Aunt Lute Books)](https://books.google.com/books?isbn=9781879960565) - The canonical text of Chicana/o and border studies, integrating autobiographical theory and cultural critique to conceptualize geographic, psychological, and linguistic borderlands.
+
+Asian American Racialization and Exclusion: [The Making of Asian America: A History (Erika Lee / Simon & Schuster)](https://books.google.com/books?isbn=9781476739410) - A definitive narrative synthesis demonstrating how Asian immigration, legal exclusion, and racialized labor shaped the legal and social boundaries of American citizenship.
 
 ## Gender, Sexuality, and Feminist Frameworks
 
-This track applies feminist, queer, and intersectional theories to American history and culture, revealing how power operates through the regulation of bodies, labor, and social identities.
+This track investigates how gender, sexuality, and reproduction structure American political economy, legal institutions, and social movements.
 
-Intersectionality: "Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color" by Kimberlé Crenshaw (Stanford Law Review) - The seminal essay that coined and defined the term "intersectionality"; search for the full text PDF online to understand how overlapping systemic disadvantages compound in the American legal and social systems.
+U.S. Women's and Labor History: [Women Have Always Worked: The U.S. Experience (ColumbiaX / edX / Alice Kessler-Harris)](https://www.edx.org/xseries/columbiax-women-have-always-worked) - A structured four-course video sequence exploring women's domestic, agricultural, industrial, and civic labor across four centuries of American history.
 
-Queer History and Economics: "Capitalism and Gay Identity" by John D'Emilio - A groundbreaking essay arguing that modern homosexual identity is inextricably linked to the rise of capitalist wage labor and the decline of the self-sufficient family unit; widely available as a free PDF on university syllabus pages.
+Intersectionality Frameworks: "Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color" by Kimberlé Crenshaw (Stanford Law Review) - The landmark legal-theoretical essay demonstrating how race, gender, and class systems intersect to produce compound vulnerability within institutional structures; search for the PDF online.
 
-Transgender History: [Transgender History: The Roots of Today's Revolution (Susan Stryker)](https://books.google.com/books?isbn=9781580056892) - The definitive, accessible overview of transgender life and activism in the United States from the mid-20th century to the present, essential for understanding contemporary gender debates.
+Queer Political Economy: "Capitalism and Gay Identity" by John D'Emilio (Monthly Review Press) - A foundational historical essay analyzing how the expansion of capitalist wage labor enabled the emergence of autonomous queer identities and urban communities; search for the text on university syllabus repositories.
 
-Archival Research: [Digital Transgender Archive (College of the Holy Cross)](https://www.digitaltransgenderarchive.net/) - A massive, freely accessible digital hub of primary sources, oral histories, and independent media that allows you to research trans history directly rather than relying solely on secondary interpretations.
+Transgender History: [Transgender History: The Roots of Today's Revolution (Susan Stryker / Seal Press)](https://books.google.com/books?isbn=9781580056892) - The authoritative chronological account of American transgender organizing, medicalization, and cultural politics from the mid-nineteenth century to the present.
 
 ## Empire, Transnationalism, and Hemispheric Studies
 
-This track decenters the continental United States, examining the country as a global empire, a participant in hemispheric networks, and a dominant force in international cultural and political spheres.
+This track decenters the continental United States, analyzing American imperialism, extraterritorial governance, immigration law, and transnational cultural circulations.
 
-US Imperialism: [How to Hide an Empire: A History of the Greater United States (Daniel Immerwahr)](https://books.google.com/books?isbn=9780374172145) - A paradigm-shifting historical account that forces a reckoning with the US overseas territories, military bases, and global logistical networks that are routinely ignored in domestic histories.
+Extraterritorial Empire and Territory: [How to Hide an Empire: A History of the Greater United States (Daniel Immerwahr / Farrar, Straus and Giroux)](https://books.google.com/books?isbn=9780374172145) - A transformative historical study revealing how the U.S. acquired, administered, and politically obscured its overseas territories, island colonies, and military points.
 
-Hemispheric Networks: [Journal of Transnational American Studies (JTAS / eScholarship)](https://escholarship.org/uc/jtas) - A premier, fully open-access peer-reviewed journal that publishes cutting-edge research connecting US history and culture to the broader Americas and global diasporas.
+The Imperial Turn in American Studies: [Cultures of United States Imperialism (Amy Kaplan & Donald E. Pease, eds. / Duke University Press)](https://books.google.com/books?isbn=9780822314134) - The field-defining anthology that dismantled the assumption of American anti-imperial exceptionalism by analyzing the domestic cultural consequences of foreign intervention.
 
-Cold War Hegemony: [Cold War Civil Rights: Race and the Image of American Democracy (Mary L. Dudziak)](https://books.google.com/books?isbn=9780691151267) - Demonstrates how the domestic Civil Rights Movement was heavily driven by the US government's need to win the global propaganda war against the Soviet Union, linking domestic policy to foreign empire.
+Legal Borders and Undocumented Migration: [Impossible Subjects: Illegal Aliens and the Making of Modern America (Mae M. Ngai / Princeton University Press)](https://books.google.com/books?isbn=9780691124292) - A landmark legal and cultural history examining how twentieth-century national-origin quotas and immigration enforcement produced the racialized category of the undocumented migrant.
 
-Migration and Borders: [TRAC Immigration (Syracuse University)](https://trac.syr.edu/tracimmigration/) - An invaluable, free, and continuously updated data tool providing comprehensive statistics on immigration enforcement, border apprehensions, and immigration court backlogs for applied policy research.
+Cold War Geopolitics and Civil Rights: [Cold War Civil Rights: Race and the Image of American Democracy (Mary L. Dudziak / Princeton University Press)](https://books.google.com/books?isbn=9780691151267) - Demonstrates how federal civil rights policies and desegregation efforts were fundamentally driven by America's geopolitical imperatives during the global Cold War.
 
-## Visual Culture, Materiality, and the Digital Age
+## Visual Culture, Materiality, and Digital Humanities
 
-This track explores the methodologies of analyzing non-textual sources, focusing on how American myths and social hierarchies are embedded in visual media, physical objects, and digital archives.
+This track provides practical methodologies for interpreting non-textual evidence, including visual media, material artifacts, and computational data in American Studies research.
 
-Visual Theory: "Ways of Seeing" by John Berger (BBC / YouTube) - While originally focused on European art, this classic four-part documentary series provides the foundational vocabulary for analyzing the "gaze," commodification, and visual power dynamics that are deeply applicable to American media and advertising; search for the full BBC series on YouTube.
+Visual Culture Analysis: "Ways of Seeing" by John Berger (BBC / YouTube) - A seminal four-part documentary series introducing foundational methods for interrogating the ideological power, gendered gaze, and commercial manipulation embedded in visual images; search for the BBC broadcast on YouTube.
 
-American Cinema: [American Cinema: A Video Instructional Series (Annenberg Learner)](https://www.learner.org/series/american-cinema/) - A comprehensive, free 10-part video course that explores how specific Hollywood genres (the Western, Film Noir, the Musical) constructed and reflected American cultural anxieties and mythologies.
+American Cinema and Mythmaking: [American Cinema: A Video Instructional Series (Annenberg Learner)](https://www.learner.org/series/american-cinema/) - A comprehensive 10-part video course exploring how classic Hollywood film genres constructed and sustained central American cultural myths and anxieties.
 
-Material Culture: [Smithsonian Learning Lab (Smithsonian Institution)](https://learninglab.si.edu/) - A free, interactive platform that provides direct access to millions of digitized artifacts, photographs, and primary sources from the national museums, allowing for hands-on study of American material culture.
+Material Culture and Object Analysis: [The Age of Homespun: Objects and Stories in the Creation of an American Myth (Laurel Thatcher Ulrich / Vintage)](https://books.google.com/books?isbn=9780679766445) - A Bancroft and Pulitzer Prize-winning masterclass demonstrating how to read everyday physical artifacts to reconstruct early American labor, domestic production, and cultural memory.
 
-Digital Humanities Methods: [The Programming Historian (Open Access)](https://programminghistorian.org/) - A peer-reviewed, open-access publication offering practical, step-by-step tutorials on how to use digital tools, code, and data scraping to conduct advanced historical and cultural research.
+Digital Humanities Methodologies: [The Programming Historian (Open Access)](https://programminghistorian.org/) - A peer-reviewed, open-access instructional publication offering hands-on, step-by-step tutorials in computational text analysis, geospatial mapping, and web scraping for historical research.
