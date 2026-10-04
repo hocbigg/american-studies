@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+
+  <title>Hocbigg - American Studies</title>
+  <meta name="description" content="Path to a free self-taught education in American Studies.">
+  <meta name="author" content="hocbigg">
+
+  <link rel="canonical" href="https://hocbigg.github.io/american-studies/">
+  <meta property="og:title" content="Hocbigg - American Studies">
+  <meta property="og:description" content="Path to a free self-taught education in American Studies.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/american-studies/">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/american-studies/">American Studies</a></li>
+      <li><a href="/american-studies/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="https://github.com/hocbigg/american-studies" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <article>
+<header class="page-header">
+  <img src="/images/logo.png" alt="Hocbigg logo">
+  <h1>Hocbigg - American Studies</h1>
+  <p class="page-subtitle">Path to a free self-taught education in American Studies.</p>
+  <p class="last-updated"><small>Last updated on: <time datetime="2026-09-21">2026-09-21</time></small></p>
+</header>
+<h2 id="introduction">Introduction</h2>
+<p>American Studies is an interdisciplinary field dedicated to investigating the culture, history, and society of the United States. Rather than analyzing historical events, literary works, or political structures in disciplinary isolation, American Studies asks how these domains intersect. The field focuses on how national mythologies — such as the "American Dream", the frontier thesis, and American exceptionalism — were created, how they have been challenged, and how diverse populations have negotiated identity, power, and belonging within and across U.S. borders.</p>
+<p>This curriculum is designed for independent, self-directed learners starting from scratch. It assumes no prior academic training in literary criticism, historiography, or political science. Whether you are an independent scholar, a career changer, or a generalist seeking a grounded cultural understanding of the United States, this guide provides a structured, undergraduate-level foundation using openly accessible textbooks, university lecture series, and seminal texts.</p>
+<p>While each subject can be explored independently, approaching them in a deliberate sequence will help you build a cohesive analytical framework:</p>
+<ul>
+<li><strong>Start with Disciplinary Orientation:</strong> Begin with <em>Introduction to American Studies</em>. This establishes the theoretical vocabulary of the field — particularly cultural critique, myth-and-symbol analysis, and transnational perspectives — giving you the analytical tools necessary to interrogate subsequent materials.</li>
+<li><strong>Pair History and Literature:</strong> Study the <em>American History Survey</em> and the <em>American Literature Survey</em> concurrently if possible. Literary texts operate as both products of and responses to historical circumstances; pairing chronological history with corresponding literary periods allows novels, poetry, and political tracts to contextualize historical developments, and vice versa.</li>
+<li><strong>Examine Institutional Power:</strong> Move through <em>American Government and Political Culture</em> to understand the institutional architecture, constitutional debates, and civic mechanisms that govern American public life.</li>
+<li><strong>Synthesize with Thematic Cultural Studies:</strong> Finish with <em>Themes in American Culture and Society</em>, where history, literature, politics, and sociology converge to analyze recurring cultural debates surrounding race, gender, class, regionalism, and mass media.</li>
+</ul>
+<p>This page covers the foundational core: the fundamental chronologies, constitutional frameworks, literary movements, and interpretive methods that every student of American Studies needs before specializing. It does not attempt to cover every specialized subdiscipline or niche research methodology.</p>
+<p>Once you have mastered this core foundation, you can explore <a href="advanced_topics.html">Advanced Topics</a> to specialize in subfields such as settler colonialism, queer and feminist theory, transnational empire, or visual culture.</p>
+<h2 id="curriculum">Curriculum</h2>
+<h3 id="introduction-to-american-studies">Introduction to American Studies</h3>
+<p>This subject examines the intellectual history, foundational concepts, and interdisciplinary methods of American Studies, focusing on how scholars analyze national myths, cultural identity, and transnational connections.</p>
+<p><a href="https://library.oapen.org/handle/20.500.12657/31456" target="_blank" rel="noopener noreferrer">The Myths That Made America: An Introduction to American Studies (Heike Paul / OAPEN Library)</a> - A comprehensive, peer-reviewed open-access textbook that introduces the field through critical analysis of foundational national myths, including the Promised Land, the frontier, and the self-made individual.</p>
+<p><a href="https://books.google.com/books?isbn=9780520287730" target="_blank" rel="noopener noreferrer">American Studies: A User's Guide (Philip J. Deloria &amp; Alexander I. Olson / University of California Press)</a> - A complementary methodology handbook that provides practical toolkits for interpreting cultural texts, curating archives, and analyzing power dynamics across the discipline.</p>
+<p><a href="https://books.google.com/books?isbn=9781138775046" target="_blank" rel="noopener noreferrer">American Studies: The Basics (Andrew Dix / Routledge)</a> - A concise alternative to the Paul and Deloria texts, offering a condensed overview of the field's historical evolution and central academic debates.</p>
+<h3 id="american-history-survey">American History Survey</h3>
+<p>This subject traces the chronological, social, political, and cultural development of the United States from pre-Columbian contact through the modern era.</p>
+<p><a href="https://www.americanyawp.com/" target="_blank" rel="noopener noreferrer">The American Yawp: A Massively Collaborative Open U.S. History Textbook (Stanford University Press)</a> - A collaboratively written open textbook prioritizing social, cultural, and marginalized perspectives, making it the ideal narrative spine for an American Studies learner.</p>
+<p><a href="https://openstax.org/details/books/us-history" target="_blank" rel="noopener noreferrer">U.S. History (OpenStax)</a> - An alternative comprehensive, open-access textbook offering a more traditional political and chronological historical overview.</p>
+<p><a href="https://modernstates.org/course/history-of-the-united-states-i/" target="_blank" rel="noopener noreferrer">History of the United States I &amp; II (Modern States)</a> - A two-part video lecture sequence covering early colonization through the contemporary era, serving as a self-paced audiovisual alternative to reading a survey textbook.</p>
+<p><a href="https://oyc.yale.edu/history/hist-116" target="_blank" rel="noopener noreferrer">The American Revolution  —  HIST 116 (Yale Open Courses / Joanne Freeman)</a> - A specialized 25-lecture deep dive designed to be viewed alongside the Revolutionary era chapters in your chosen survey textbook.</p>
+<p><a href="https://oyc.yale.edu/history/hist-119" target="_blank" rel="noopener noreferrer">The Civil War and Reconstruction Era, 1845–1877  —  HIST 119 (Yale Open Courses / David Blight)</a> - Builds directly upon your survey studies by providing granular historical and cultural analysis of the sectional crisis, slavery, and Reconstruction.</p>
+<h3 id="american-literature-survey">American Literature Survey</h3>
+<p>This subject surveys the major literary movements, authors, and aesthetics that have reflected and challenged American identity from the colonial era to the present day.</p>
+<p><a href="https://www.learner.org/series/american-passages-a-literary-survey/" target="_blank" rel="noopener noreferrer">American Passages: A Literary Survey (Annenberg Learner)</a> - A 16-part video course contextualizing diverse literary movements, canonical figures, and recovered writers within their historical and cultural moments.</p>
+<p><a href="https://modernstates.org/course/american-literature/" target="_blank" rel="noopener noreferrer">American Literature (Modern States)</a> - A concise lecture series aligned with standard survey exams, offering an accelerated alternative for reviewing major literary periods.</p>
+<p><a href="https://books.google.com/books?isbn=9780393892291" target="_blank" rel="noopener noreferrer">The Norton Anthology of American Literature, Shorter Tenth Edition (Robert S. Levine et al. / W. W. Norton)</a> - The canonical two-volume primary text reader to be studied sequentially alongside the video courses, featuring authoritative contextual introductions and author biographies.</p>
+<h3 id="american-government-and-political-culture">American Government and Political Culture</h3>
+<p>This subject covers the constitutional foundations, governing institutions, civil rights, and civic cultures that shape the American political system.</p>
+<p><a href="https://openstax.org/details/books/american-government-4e" target="_blank" rel="noopener noreferrer">American Government 4e (OpenStax)</a> - A comprehensive open-access textbook covering constitutional design, institutional powers, political behavior, and civil liberties.</p>
+<p><a href="https://modernstates.org/course/american-government/" target="_blank" rel="noopener noreferrer">American Government (Modern States)</a> - A self-paced video lecture course covering foundational civics and constitutional mechanics, serving as an accessible video alternative to the textbook.</p>
+<p><a href="https://www.learner.org/series/democracy-in-america/" target="_blank" rel="noopener noreferrer">Democracy in America (Annenberg Learner)</a> - A complementary 15-part video series that uses contemporary case studies and Tocquevillian theory to illustrate how democratic institutions operate in practice.</p>
+<p><a href="https://www.gutenberg.org/ebooks/1404" target="_blank" rel="noopener noreferrer">The Federalist Papers (Project Gutenberg)</a> - A canonical collection of primary political essays to be read selectively alongside the institutional coursework to understand constitutional architecture and early political thought.</p>
+<h3 id="themes-in-american-culture-and-society">Themes in American Culture and Society</h3>
+<p>This subject explores the central cultural arenas, recurring tensions, and contested identities — including race, gender, class, regionalism, and popular culture — that define American life.</p>
+<p><a href="https://books.google.com/books?isbn=9781138833142" target="_blank" rel="noopener noreferrer">American Cultural Studies: An Introduction to American Culture, Fourth Edition (Neil Campbell &amp; Alasdair Kean / Routledge)</a> - The standard thematic textbook for the discipline, offering structured chapters on the American landscape, urbanization, ethnicity, religion, mass media, and gender.</p>
+<p><a href="https://keywords.nyupress.org/american-cultural-studies/" target="_blank" rel="noopener noreferrer">Keywords for American Cultural Studies, Third Edition (NYU Press / Keywords Project)</a> - A complementary collection of open-access scholarly essays analyzing key critical concepts such as citizenship, border, empire, and race as they arise in your thematic readings.</p>
+    </article>
+  </main>
+
+</body>
+</html>
